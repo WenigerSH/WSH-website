@@ -1,0 +1,8 @@
+{
+  "name": "web",
+  "version": "0.0.0",
+  "dependencies": {
+    "bootstrap": "git://github.com/twitter/bootstrap.git",
+    "jquery": "~1.8.3"
+  }
+}
