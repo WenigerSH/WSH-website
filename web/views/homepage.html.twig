@@ -1,13 +1,6 @@
 {% extends "layout.html.twig" %}
 {% block content %}
-<div class="page-header" style="text-align: right">
-  <h1 class="hidden">Weniger Software House</h1>
-  <img src="/img/logo.png">
-</div>
-<!-- <p class="lead">
-	As Software House we make lean, beautiful and quality <strong>web applications, mobile aps and business analisys</strong> for our partners. We follow rules of <strong>simplicity, focus and giving to the world</strong>.
-</p> -->
-	    <div class="wrapper">
+	    <div class="wrapper" style="margin-top: 70px">
             
             <div class="clock">
                 <canvas id="canvas_seconds" width="518px" height="518px"></canvas>
@@ -21,11 +14,14 @@
             <div class="timer">
                 <p><span class="days">0</span> days <span class="hrs">0</span> hours <span class="mins">0</span> minutes and <span class="secs">0</span> seconds</p>
             </div>    
+            <div class="logo">
+                <img src="/img/logo.png" style="width: 250px;">
+            </div>
 
         </div><!--/wrapper-->
 
 
-<p>
-	In the meantime, <a href="http://www.facebook.com/WenigerSH" target="_blank" title="Weniger Software House facebook page">follow us on Facebook</a> or <a href="mailto:contact@wenigersh.com">contact@wenigersh.com</a>. 
-</p>
+            <p class="meantime">
+    In the meantime, <a href="http://www.facebook.com/WenigerSH" target="_blank" title="Weniger Software House facebook page">follow us on Facebook</a> or <a href="mailto:contact@wenigersh.com">contact@wenigersh.com</a>. 
+            </p>
 {% endblock %}
