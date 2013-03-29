@@ -10,6 +10,26 @@
     <link href="/components/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
     <link href="/components/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
 
+    <link rel="stylesheet" href="/css/jbclock.css" type="text/css" media="all" />
+    <script type="text/javascript" src="/js/jquery-1.8.0.min.js"></script>
+    <script type="text/javascript" src="/js/jbclock.js"></script>
+            <script type="text/javascript">
+        $(document).ready(function(){
+            JBCountDown({
+                secondsColor : "#000000",
+                secondsGlow  : "#ffdc50",
+
+                
+                
+                startDate   : {{ startTimeStamp }},
+                endDate     : {{ endTimeStamp }},
+                now         : {{ nowTimeStamp }},
+                seconds     : "13"
+            });
+        });
+    </script>
+
+
     <style type="text/css">
 
       /* Sticky footer styles
